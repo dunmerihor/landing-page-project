@@ -85,6 +85,48 @@ button {
     align-self: flex-start;
 }
 
-img {
+.welc-pic {
     max-width: 620px;
+}
+
+.information-block {
+    margin: 0px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.pic-text-block {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info-pic {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.pic-text {
+    text-align: center;
+    font-size: 16px;
+    color: #818181;
 }
