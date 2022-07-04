@@ -130,3 +130,31 @@ button {
     font-size: 16px;
     color: #818181;
 }
+
+.citation-block {
+    background-color: #e5e7eb;
+    margin: 0px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.citate {
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sign {
+    width: 800px;
+    text-align: end;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+}
