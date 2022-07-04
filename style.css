@@ -1,5 +1,5 @@
 body {
-    padding: 0px;
+    margin: 0px;
     font-family: Roboto, Oxygen, Ubuntu;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,20 @@ body {
 
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: Roboto, Oxygen, Ubuntu;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 6px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
 }
 
 .header {
@@ -30,4 +44,47 @@ ul {
 .h-links {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-block {
+    margin: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #1f2937;
+}
+
+.w-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 450px;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+}
+
+.title-button {
+    align-self: flex-start;
+}
+
+img {
+    max-width: 620px;
 }
